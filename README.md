@@ -1,6 +1,8 @@
 # Cortical Protein Expression Analysis for Trisomic Mice
 This repository contains code and data for the analysis of protein expression levels in a study investigating Down syndrome. The dataset consists of the expression levels of 77 proteins/protein modifications in the nuclear fraction of cortex samples from mice, with 38 control mice and 34 trisomic mice (Down syndrome), totaling 72 mice. Each protein was measured 15 times per sample/mouse, resulting in a total of 1080 measurements per protein.
 
+![mice_spread](https://github.com/jacobserfaty/cortical_protein_expression/blob/main/cortical_plots/mice_spread.png)
+
 ### Dataset Description
 **Purpose:** The purpose of this project is to identify subsets of proteins that are discriminant for different classes of mice based on genotype, behavior, and treatment conditions.
 
@@ -29,10 +31,13 @@ This repository contains code and data for the analysis of protein expression le
 
 **Feature Selection/Dimensionality Reduction:**
 - Use techniques like t-SNE or feature selection methods to reduce dimensionality.
+![t-SNE c-CS-m](https://github.com/jacobserfaty/cortical_protein_expression/blob/main/cortical_plots/t-SNE_c-CS-m.png)
 
 **Statistical Analysis:**
 - Identify proteins with significant expression differences between classes using statistical tests.
 - Explore variation in protein expression between treatment groups (e.g., context-shock vs. shock-context, memantine vs. control).
+![SOD1_N violin](https://github.com/jacobserfaty/cortical_protein_expression/blob/main/cortical_plots/SOD1_N_violin.png)
+![CaNA_N violin](https://github.com/jacobserfaty/cortical_protein_expression/blob/main/cortical_plots/CaNA_N_violin.png)
 
 **Machine Learning Modeling:**
 - Train models to classify mice into different classes based on protein expression.
@@ -43,3 +48,5 @@ This repository contains code and data for the analysis of protein expression le
 
 **Visualization:**
 - Create visualizations (e.g., heatmaps, dendrograms) to illustrate relationships between proteins and classes, and to demonstrate the effectiveness of t-SNE in identifying protein groups and hierarchical clustering in revealing deeper relationships between proteins.
+![Heatmap c-SC-m](https://github.com/jacobserfaty/cortical_protein_expression/blob/main/cortical_plots/Heatmap_c-SC-m.png)
+![Heatmap c-CS-m](https://github.com/jacobserfaty/cortical_protein_expression/blob/main/cortical_plots/Heatmap_c-CS-m.png)
