@@ -49,4 +49,4 @@ This repository contains code and data for the analysis of protein expression le
 **Visualization:**
 - Create visualizations (e.g., heatmaps, dendrograms) to illustrate relationships between proteins and classes, and to demonstrate the effectiveness of t-SNE in identifying protein groups and hierarchical clustering in revealing deeper relationships between proteins.
 ![Heatmap c-SC-m](https://github.com/jacobserfaty/cortical_protein_expression/blob/main/cortical_plots/Heatmap_c-SC-m.png)
-![Heatmap c-CS-m](https://github.com/jacobserfaty/cortical_protein_expression/blob/main/cortical_plots/Heatmap_c-CS-m.png)
+![heatmap c-CS-m](https://github.com/jacobserfaty/cortical_protein_expression/blob/main/cortical_plots/heatmap_c-CS-m.png)
