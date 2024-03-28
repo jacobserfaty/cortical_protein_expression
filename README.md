@@ -1,4 +1,4 @@
-# Protein Expression Analysis for Down Syndrome Study
+# Cortical Protein Expression Analysis for Ttrisomic Mice
 This repository contains code and data for the analysis of protein expression levels in a study investigating Down syndrome. The dataset consists of the expression levels of 77 proteins/protein modifications in the nuclear fraction of cortex samples from mice, with 38 control mice and 34 trisomic mice (Down syndrome), totaling 72 mice. Each protein was measured 15 times per sample/mouse, resulting in a total of 1080 measurements per protein.
 
 ### Dataset Description
