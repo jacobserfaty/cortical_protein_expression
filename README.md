@@ -31,12 +31,15 @@ This repository contains code and data for the analysis of protein expression le
 
 **Feature Selection/Dimensionality Reduction:**
 - Use techniques like t-SNE or feature selection methods to reduce dimensionality.
+
 ![t-SNE c-CS-m](https://github.com/jacobserfaty/cortical_protein_expression/blob/main/cortical_plots/t-SNE_c-CS-m.png)
 
 **Statistical Analysis:**
 - Identify proteins with significant expression differences between classes using statistical tests.
 - Explore variation in protein expression between treatment groups (e.g., context-shock vs. shock-context, memantine vs. control).
+
 ![SOD1_N violin](https://github.com/jacobserfaty/cortical_protein_expression/blob/main/cortical_plots/SOD1_N_violin.png)
+
 ![CaNA_N violin](https://github.com/jacobserfaty/cortical_protein_expression/blob/main/cortical_plots/CaNA_N_violin.png)
 
 **Machine Learning Modeling:**
@@ -48,5 +51,7 @@ This repository contains code and data for the analysis of protein expression le
 
 **Visualization:**
 - Create visualizations (e.g., heatmaps, dendrograms) to illustrate relationships between proteins and classes, and to demonstrate the effectiveness of t-SNE in identifying protein groups and hierarchical clustering in revealing deeper relationships between proteins.
+
 ![Heatmap c-SC-m](https://github.com/jacobserfaty/cortical_protein_expression/blob/main/cortical_plots/Heatmap_c-SC-m.png)
+
 ![heatmap c-CS-m](https://github.com/jacobserfaty/cortical_protein_expression/blob/main/cortical_plots/heatmap_c-CS-m.png)
